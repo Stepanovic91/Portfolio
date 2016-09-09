@@ -1,0 +1,93 @@
+*{
+	margin:0px;
+	padding:0px;
+}
+
+#omot 
+{
+	margin:100px auto;
+	padding-top:100px;
+	padding-left:100px;
+	padding-right:100px;
+	width:760px;
+	min-height:500px;
+	background-color:navy;
+}
+
+#forma
+{
+	float:left;
+	width:auto;
+	min-height:10px;
+	padding:50px;
+	background-color:green;
+	
+}
+
+#omotImenik
+{
+	float:left;
+	width:auto;
+	min-height:10px;
+	background-color:green;
+	color:white;
+}
+
+a:link{
+	text-decoration:none;
+	color:white;
+}
+
+a:visited{
+	text-decoration:none;
+	color:#000;
+}
+
+a:hover{
+	text-decoration:none;
+	color:#000;
+}
+
+
+table.imenikPrikaz
+{
+	border-collapse: collapse;
+	margin:43.5px auto;
+	width:auto;
+	color:white;
+}
+
+td, th
+{
+	width: 4rem;
+	height: 2rem;
+	border: 1px solid #ccc;
+	text-align: center;
+	color:white;
+}
+
+th
+{
+	background: #f5f5f5;
+	border: 1px solid #ccc;
+}
+
+.dobarUnos
+{
+	border-color: green;
+}
+
+.losUnos
+{
+	border-color: red;
+}
+
+.DivIspisDobarUnos
+{
+	color: green;
+}
+
+.LosFormaUnos
+{
+	color: red;
+}

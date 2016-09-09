@@ -1,0 +1,49 @@
+<html>
+	<head>
+		<link rel="stylesheet" href="css/stil.css" type="text/css"/>
+		<meta charset="UTF-8">
+	</head>
+	<body onLoad="Imenik();">
+		<div id="omot">
+			<div id="forma">
+				<form action="" method="POST" onSubmit="return Pokupi();">
+					<table>
+						<tr>
+							<td>Ime: </td>
+							<td><input type="text" id="ime"/></td>
+						</tr>
+						<tr>
+							<td>Prezime: </td>
+							<td><input type="text" id="prezime"/></td>
+						</tr>
+						<tr>
+							<td>Adresa: </td>
+							<td><input type="text" id="adresa"/></td>
+						</tr>
+						<tr>
+							<td>Broj telefona: </td>
+							<td><input type="text" id="telefon"/></td>
+						</tr>
+						<tr>
+							<td>Broj mobilnog telefona: </td>
+							<td><input type="text" id="mobilniTelefon"/></td>
+						</tr>
+						<tr>
+							<td colspan="2">
+								<input type ="submit" value="unesi u imenik"/>
+							</td>
+						</tr>
+					</table>
+				</form>
+				<div id="poruke"></div>
+			</div>
+			<div id="omotImenik">
+				<h3>Pretraga</h3>
+				<input type="text" id="pretraga" onkeyup="Pretraga();" placeholder="pretrazite imenik..."/>
+				<div id="imenik"></div>
+			</div>
+		</div>
+		<script language="JavaScript" src="js/skript.js">
+		</script>
+	</body>
+</html>

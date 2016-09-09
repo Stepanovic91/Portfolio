@@ -1,0 +1,34 @@
+<!DOCTYPE>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<link rel="StyleSheet" href="css/stil.css" type="text/css"/>
+	</head>
+	<body onload="PrikaziSlike();">
+		<div id="omot">
+			<div id="scoreOmot">
+				<div id="scoreInfo"></div>
+				<div id="progressBarOmot">
+					<div id="progressBar"></div>
+				</div>
+			</div>
+			<div id = "gameInfo">
+			<p><b>resetujte igru ili promenite težinu:</b></p>
+				<div id="tezinaIgriceDiv">
+					<select id="ddlTezinaIgrice" onChange="PromeniTezinuIgrice();">
+						<option value="40" selected>lako</option>
+						<option value="30">srednje</option>
+						<option value="20">teško</option>
+					</select>
+				</div>
+				<div id="tranjeIgriceDiv">
+					<h3 id="tranjeIgrice">40</h3>
+				</div>
+			</div>
+			<div id="memorijaOmot">
+			</div>
+		</div>
+		<script language="JavaScript" src="js/kod.js">
+		</script>
+	</body>
+</html>

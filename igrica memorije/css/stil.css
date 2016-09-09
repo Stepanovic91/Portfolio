@@ -1,0 +1,84 @@
+*
+{
+	margin:0px;
+	padding:0px;
+}
+
+#omot
+{
+	margin:50px auto;
+	width:1000px;
+	min-height:600px;
+}
+
+.skriveno
+{
+	display:none;
+}
+
+#memorijaOmot
+{
+	margin:50px auto;
+	width:600px;
+	min-height:600px;
+}
+
+#gameInfo
+{
+	margin:0px auto;
+	width:300px;
+	min-height:10px;
+}
+
+#tezinaIgriceDiv
+{
+	float:left;
+	width:150px;
+	min-height:10px;
+}
+
+#tranjeIgriceDiv
+{
+	float:left;
+	width:150px;
+	min-height:10px;
+}
+
+.slikeMemorija
+{
+	float:left;
+	width:150px;
+	height:150px;
+}
+
+.gameOverSlika{
+	width:600px;
+	height:600px;
+}
+
+#scoreOmot{
+	width:500px;
+	min-height:50px;
+	margin:50px auto;
+}
+
+#scoreInfo{
+	float:left;
+	width:140px;
+	min-height:50px;
+}
+
+#progressBarOmot
+{
+	float:left;
+	width:360px;
+	height:30px;
+	background-color:#ccc;
+}
+
+#progressBar
+{
+	height:100%;
+	background-color:green;
+	width:1%;
+}

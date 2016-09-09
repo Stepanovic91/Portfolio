@@ -1,0 +1,48 @@
+*
+{
+	margin:0px;
+	padding:0px;
+}
+
+#omot
+{
+	min-height:500px;
+	width:1000px;
+	margin:50px auto;
+}
+
+#users
+{
+	min-height:200px;
+	width:500px;
+	float:left;
+}
+
+#tokens
+{
+	min-height:200px;
+	width:500px;
+	float:left;
+}
+
+.user
+{
+	background-color:#ccc;
+	float:left;
+	width:450px;
+	min-height:150px;
+	margin-left:10px;
+	margin-bottom:10px;
+	padding:5px;
+}
+
+.topic
+{
+	background-color:#44e85f;
+	float:left;
+	width:450px;
+	min-height:150px;
+	margin-left:10px;
+	margin-bottom:10px;
+	padding:5px;
+}

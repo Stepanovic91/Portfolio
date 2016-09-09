@@ -1,0 +1,121 @@
+*
+{
+	margin:0px;
+	padding:0px;
+}
+
+#omot
+{
+	margin:100px auto;
+	padding-top:80px;
+	width:800px;
+	height:450px;
+	background:#009999;
+	color:white;
+}
+
+#navigacijaKalendar
+{
+	margin:5px auto;
+	width:500px;
+	min-height:10px;
+}
+
+#datumPrikaz
+{
+	float:left;
+	width:200px;
+	height:50px;
+	text-align:center;
+}
+
+.navigacijaKalendar
+{
+	float:left;
+	width:150px;
+	height:10px;
+}
+
+img.imgNavigacijaDesno
+{
+	width:15px;
+	height:15px;
+	float:right;
+}
+
+img.imgNavigacijaLevo
+{
+	width:15px;
+	height:15px;
+	float:left;
+}
+
+td:hover
+{
+	background-color: #99ccff;
+	font-weight:bold;
+	
+}
+
+table
+{
+	border-collapse: collapse;
+	margin:0px auto;
+	width:auto;
+	color:black;
+}
+
+td, th
+{
+	width: 4rem;
+	height: 2rem;
+	border: 1px solid #ccc;
+	text-align: center;
+	background:white;
+}
+
+th
+{
+	background: #6699ff;
+	border-color: white;
+}
+
+td.datumIzDrugogMeseca
+{
+	background-color:blue;
+	color:white;
+}
+
+td.datumIzDrugogMeseca:hover
+{
+	background-color: #f5f5f5;
+	color:red;
+}
+
+td.trenutniDatum
+{
+	background: #00ffff;
+}
+
+#prikazVreme
+{	
+	margin:50px auto;
+	width:300px;
+	min-height:100px;
+}
+
+p 
+{
+		text-align:center;
+		padding-top:5px;
+}
+#sat
+{	
+	margin:5px auto;
+	width:250px;
+	min-height:10px;
+}
+#FormatVremena
+{	
+	margin-left:280px;
+}

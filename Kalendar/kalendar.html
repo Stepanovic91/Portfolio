@@ -1,0 +1,43 @@
+<!DOCTYPE>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<link rel="StyleSheet" href="css/stil.css" type="text/css"/>
+	</head>
+	<body onload="Kalendar(0);">
+		<div id="omot">
+		<div id="omotKalendar">
+			<div id="navigacijaKalendar">
+				<div class="navigacijaKalendar">
+					<a href="#" onclick="Kalendar(-1)">
+						<img src="slike/navigacijaLevo.jpeg" width="" height="" 
+						alt="navigacijaLevo" title="prethodni mesec" class="imgNavigacijaLevo"/>
+					</a>
+				</div>
+				<div id="datumPrikaz"></div>
+				<div class="navigacijaKalendar">
+					<a href="#" onclick="Kalendar(+1)">
+						<img src="slike/navigacijaDesno.jpeg" width="" height=""
+						alt="navigacijaDesno" title="sledeći mesec" class="imgNavigacijaDesno"/>
+					</a>
+				</div>
+			</div>
+			<div id="kalendar"></div>
+			<div id="prikazVremena">
+				<p>trenutno vreme: </p>
+				<div id="sat"></div>
+				</div>
+				<select id="FormatVremena">
+					<option value="0">izaberite format Datuma</option>
+					<option value="format1">Mon:July:2016 ponedeljak, 10.July.2016</option>
+					<option value="format2">MON:JULY:16 ponedeljak, 10.July.16</option>
+					<option value="format3">10/JULY/2016 ponedeljak, 10/July/2016</option>
+					<option value="format4">10/July/16 ponedeljak, 10/July/16</option>
+					<option value="format5">31/JULY/2016 ponedeljak, 31/7/2016</option>
+					<option value="format6">10/7/2016 ponedeljak, 10/7/2016</option>
+				</select>
+			</div>
+		</div>
+		<script language="JavaScript" src="js/kod.js"></script>
+	</body>
+</html>
